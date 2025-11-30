@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "nasa_app",
+    "slug": "nasa_app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/image/nasalogo.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/image/nasalogo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#1d417c"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.sacachispa.nasa_app"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "4c26c933-7a40-43a3-b125-b607a6fa676b"
+      }
+    },
+    "owner": "sacachispa"
+  }
+}
